@@ -17,6 +17,16 @@ type Mnemonic struct {
 	Words string
 }
 
+func (m Mnemonic) IsValid(wordlist Wordlist) bool {
+	_, err := m.ToEntropy(wordlist)
+
+	if err != nil {
+		return false
+	}
+
+	return true
+}
+
 func (m Mnemonic) ToSeed(password string) []byte {
 	return []byte{}
 }

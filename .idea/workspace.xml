@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e5126ad-06b2-4be2-a787-7b71b320d657" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/entropy.go" afterPath="$PROJECT_DIR$/entropy.go" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mnemonic.go" afterPath="$PROJECT_DIR$/mnemonic.go" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mnemonic_test.go" afterPath="$PROJECT_DIR$/mnemonic_test.go" />
     </list>
@@ -32,20 +30,18 @@
       <file leaf-file-name="mnemonic.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mnemonic.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1125">
-              <caret line="95" column="30" lean-forward="true" selection-start-line="95" selection-start-column="30" selection-end-line="95" selection-end-column="30" />
-              <folding>
-                <element signature="e#15#148#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="195">
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mnemonic_test.go" pinned="false" current-in-tab="false">
+      <file leaf-file-name="mnemonic_test.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mnemonic_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="780">
+              <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
               <folding>
                 <element signature="e#15#43#0" expanded="true" />
               </folding>
@@ -63,10 +59,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="entropy.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="entropy.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/entropy.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="825">
               <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
               <folding>
                 <element signature="e#15#124#0" expanded="true" />
@@ -116,9 +112,9 @@
         <option value="$PROJECT_DIR$/wordlists.go" />
         <option value="$PROJECT_DIR$/wordlists_test.go" />
         <option value="$PROJECT_DIR$/entropy_test.go" />
-        <option value="$PROJECT_DIR$/mnemonic_test.go" />
-        <option value="$PROJECT_DIR$/mnemonic.go" />
         <option value="$PROJECT_DIR$/entropy.go" />
+        <option value="$PROJECT_DIR$/mnemonic.go" />
+        <option value="$PROJECT_DIR$/mnemonic_test.go" />
       </list>
     </option>
   </component>
@@ -327,32 +323,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mnemonic_test.go">
+    <entry file="file://$PROJECT_DIR$/entropy.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="825">
+          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
           <folding>
-            <element signature="e#15#43#0" expanded="true" />
+            <element signature="e#15#124#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mnemonic.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1125">
-          <caret line="95" column="30" lean-forward="true" selection-start-line="95" selection-start-column="30" selection-end-line="95" selection-end-column="30" />
-          <folding>
-            <element signature="e#15#148#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="195">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/entropy.go">
+    <entry file="file://$PROJECT_DIR$/mnemonic_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+        <state relative-caret-position="780">
+          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
           <folding>
-            <element signature="e#15#124#0" expanded="true" />
+            <element signature="e#15#43#0" expanded="true" />
           </folding>
         </state>
       </provider>

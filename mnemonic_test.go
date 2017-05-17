@@ -40,3 +40,14 @@ func TestMnemonic_ToEntropy(t *testing.T) {
 		t.Fatal(fmt.Sprintf(`expected("%s") != entropy("%s")`, expected, entropy))
 	}
 }
+
+func TestMnemonic_IsValid(t *testing.T) {
+	words := "imitate robot frame trophy nuclear regret saddle around inflict case oil spice"
+
+	mnemonic := Mnemonic{Words: words}
+
+	wl, _ := GetWordlists("english")
+	if mnemonic.IsValid(wl) != true {
+		t.Errorf("mnemonic.IsValid(wl) == false")
+	}
+}
