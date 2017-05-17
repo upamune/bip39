@@ -1,8 +1,8 @@
 package bip39
 
 import (
+	"fmt"
 	"testing"
-	"github.com/k0kubun/pp"
 )
 
 func TestEntropy_ToMnemonic(t *testing.T) {
@@ -11,5 +11,8 @@ func TestEntropy_ToMnemonic(t *testing.T) {
 	if err != nil {
 		t.Error(err)
 	}
-	pp.Println(mnemonic)
+	expected := "basket rival lemon"
+	if mnemonic.Words != expected {
+		t.Error(fmt.Errorf("mnemonic.Words(%s) != expected(%s", mnemonic.Words, expected))
+	}
 }

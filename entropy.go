@@ -5,10 +5,12 @@ import (
 	"crypto/sha256"
 	"fmt"
 
-	"github.com/pkg/errors"
-	"strings"
 	"strconv"
-	"github.com/k0kubun/pp"
+	"strings"
+
+	"encoding/hex"
+
+	"github.com/pkg/errors"
 )
 
 type Entropy struct {
@@ -16,8 +18,15 @@ type Entropy struct {
 	Hex string
 }
 
+func hexToBytes(h string) ([]byte, error) {
+	return hex.DecodeString(h)
+}
+
 func (e Entropy) ToMnemonic(wordlistLang string) (Mnemonic, error) {
-	entropyBuffer := []byte(e.Hex)
+	entropyBuffer, err := hexToBytes(e.Hex)
+	if err != nil {
+		return Mnemonic{}, err
+	}
 	l := len(entropyBuffer)
 	if l == 0 || l > 1024 || l%4 != 0 {
 		return Mnemonic{}, errors.New("Invalid entropy")
@@ -34,7 +43,7 @@ func (e Entropy) ToMnemonic(wordlistLang string) (Mnemonic, error) {
 	}
 
 	bits := entropyBits + checksum
-	chunks := chunkString(bits, 10)
+	chunks := chunkString(bits, 11)
 	words, err := chunkToWords(chunks, wordlistLang)
 	if err != nil {
 		return Mnemonic{}, err
@@ -60,8 +69,6 @@ func chunkToWords(chunks []string, wordlistLang string) ([]string, error) {
 			return []string{}, err
 		}
 
-
-		pp.Println(idx)
 		if idx >= int64(len(wordlist)) {
 			return []string{}, errors.New("out of range wordlist")
 		}

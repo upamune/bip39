@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e5126ad-06b2-4be2-a787-7b71b320d657" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/entropy_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/entropy.go" afterPath="$PROJECT_DIR$/entropy.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mnemonic.go" afterPath="$PROJECT_DIR$/mnemonic.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordlists.go" afterPath="$PROJECT_DIR$/wordlists.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordlists_test.go" afterPath="$PROJECT_DIR$/wordlists_test.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/entropy_test.go" afterPath="$PROJECT_DIR$/entropy_test.go" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -46,10 +42,10 @@
       <file leaf-file-name="entropy.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/entropy.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="57" column="52" lean-forward="false" selection-start-line="57" selection-start-column="52" selection-end-line="57" selection-end-column="52" />
+            <state relative-caret-position="1110">
+              <caret line="74" column="25" lean-forward="false" selection-start-line="74" selection-start-column="25" selection-end-line="74" selection-end-column="25" />
               <folding>
-                <element signature="e#15#131#0" expanded="true" />
+                <element signature="e#15#124#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -59,7 +55,7 @@
         <entry file="file://$PROJECT_DIR$/wordlists_test.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -68,10 +64,10 @@
       <file leaf-file-name="entropy_test.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/entropy_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding>
-                <element signature="e#15#61#0" expanded="true" />
+                <element signature="e#15#43#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -93,10 +89,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/main.go" />
-        <option value="$PROJECT_DIR$/entropy_test.go" />
         <option value="$PROJECT_DIR$/mnemonic.go" />
         <option value="$PROJECT_DIR$/wordlists.go" />
         <option value="$PROJECT_DIR$/wordlists_test.go" />
+        <option value="$PROJECT_DIR$/entropy_test.go" />
         <option value="$PROJECT_DIR$/entropy.go" />
       </list>
     </option>
@@ -106,6 +102,9 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="1026" />
@@ -267,16 +266,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/entropy_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="e#15#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wordlists.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="885">
@@ -290,7 +279,7 @@
     <entry file="file://$PROJECT_DIR$/wordlists_test.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -305,12 +294,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/entropy_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="e#15#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/entropy.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="57" column="52" lean-forward="false" selection-start-line="57" selection-start-column="52" selection-end-line="57" selection-end-column="52" />
+        <state relative-caret-position="1110">
+          <caret line="74" column="25" lean-forward="false" selection-start-line="74" selection-start-column="25" selection-end-line="74" selection-end-column="25" />
           <folding>
-            <element signature="e#15#131#0" expanded="true" />
+            <element signature="e#15#124#0" expanded="true" />
           </folding>
         </state>
       </provider>
