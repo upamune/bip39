@@ -1,0 +1,19 @@
+hash: 4f6f1739594380d76fa3f908406a0cb92bf8a583b59ce67b9eb84ebd4f0457d2
+updated: 2017-05-17T23:44:38.746350822+09:00
+imports:
+- name: github.com/pkg/errors
+  version: 645ef00459ed84a119197bfb8d8205042c6df63d
+- name: github.com/rakyll/statik
+  version: 274df120e9065bdd08eb1120e0375e3dc1ae8465
+  subpackages:
+  - fs
+- name: golang.org/x/crypto
+  version: 0fe963104e9d1877082f8fb38f816fcd97eb1d10
+  subpackages:
+  - pbkdf2
+- name: golang.org/x/text
+  version: 19e51611da83d6be54ddafce4a4af510cb3e9ea4
+  subpackages:
+  - transform
+  - unicode/norm
+testImports: []
