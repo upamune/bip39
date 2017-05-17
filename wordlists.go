@@ -11,6 +11,7 @@ import (
 type Wordlist []string
 
 const DefaultWordlist = "english"
+
 var languages = []string{
 	"english",
 	"french",
@@ -18,22 +19,24 @@ var languages = []string{
 	"japanese",
 	"spanish",
 }
+
 func GetLanguages() []string {
 	return languages
 }
 
 var languageMap = make(map[string]struct{}, len(languages))
+
 func IsValidLanguage(lang string) bool {
 	_, ok := languageMap[lang]
 	return ok
 }
 
 var wordDic = make(map[string]Wordlist, len(languages))
+
 func GetWordlists(lang string) (Wordlist, bool) {
 	ws, ok := wordDic[lang]
 	return ws, ok
 }
-
 
 //go:generate statik -src=./wordlists
 func init() {

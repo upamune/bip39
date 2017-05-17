@@ -1,10 +1,6 @@
 package bip39
 
-import (
-	"testing"
-
-	"github.com/k0kubun/pp"
-)
+import "testing"
 
 func TestWordList(t *testing.T) {
 }

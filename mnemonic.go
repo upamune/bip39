@@ -18,14 +18,14 @@ func (m Mnemonic) ToEntropy(wordlist Wordlist) string {
 	return ""
 }
 
-const defaultStrength = 128
+var defaultStrength = 128
 
 // TODO: 名前変更
 const eightBits = 8
 
 var defaultRandomGenerator = RandomGeneratorImpl{}
 
-func NewMnemonic(strength *int, generator RandomGenerator, wordlist Wordlist) Mnemonic {
+func NewMnemonic(strength *int, generator RandomGenerator, wordlistLang string) (Mnemonic,error) {
 	if strength == nil {
 		strength = &defaultStrength
 	}
@@ -37,7 +37,7 @@ func NewMnemonic(strength *int, generator RandomGenerator, wordlist Wordlist) Mn
 	hex := intToHex(r)
 	e := Entropy{Hex: hex}
 
-	return e.ToMnemonic(wordlist)
+	return e.ToMnemonic(wordlistLang)
 }
 
 type RandomGenerator interface {

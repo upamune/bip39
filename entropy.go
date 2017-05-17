@@ -8,6 +8,7 @@ import (
 	"github.com/pkg/errors"
 	"strings"
 	"strconv"
+	"github.com/k0kubun/pp"
 )
 
 type Entropy struct {
@@ -54,12 +55,14 @@ func chunkToWords(chunks []string, wordlistLang string) ([]string, error) {
 	}
 	words := []string{}
 	for _, w := range chunks {
-		idx, err := strconv.Atoi(w)
+		idx, err := strconv.ParseInt(w, 2, 64)
 		if err != nil {
 			return []string{}, err
 		}
 
-		if idx >= len(wordlist) {
+
+		pp.Println(idx)
+		if idx >= int64(len(wordlist)) {
 			return []string{}, errors.New("out of range wordlist")
 		}
 		words = append(words, wordlist[idx])
@@ -95,7 +98,12 @@ func checksumBits(buf []byte) (string, error) {
 	var ENT = len(buf) * eightBits
 	var CS = ENT / 32
 
-	return bytesToBinary(hash)[:CS]
+	b, err := bytesToBinary(hash)
+	if err != nil {
+		return "", err
+	}
+
+	return b[:CS], nil
 }
 
 func bytesToBinary(b []byte) (string, error) {
