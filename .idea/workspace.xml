@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e5126ad-06b2-4be2-a787-7b71b320d657" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mnemonic.go" afterPath="$PROJECT_DIR$/mnemonic.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mnemonic_test.go" afterPath="$PROJECT_DIR$/mnemonic_test.go" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,8 +30,8 @@
       <file leaf-file-name="mnemonic.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mnemonic.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="45" column="14" lean-forward="false" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
+            <state relative-caret-position="803">
+              <caret line="145" column="0" lean-forward="false" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
               <folding>
                 <element signature="e#15#196#0" expanded="true" />
               </folding>
@@ -42,10 +42,26 @@
       <file leaf-file-name="mnemonic_test.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mnemonic_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1110">
-              <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+            <state relative-caret-position="1080">
+              <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
               <folding>
-                <element signature="e#15#59#0" expanded="true" />
+                <marker date="1495030982000" expanded="true" signature="22:70" ph="..." />
+                <marker date="1495030982000" expanded="true" signature="150:234" ph="{...}" />
+                <marker date="1495030982000" expanded="true" signature="271:589" ph="{...}" />
+                <marker date="1495030982000" expanded="true" signature="351:370" ph="{...}" />
+                <marker date="1495030982000" expanded="true" signature="497:587" ph="{...}" />
+                <marker date="1495030982000" expanded="true" signature="633:928" ph="{...}" />
+                <marker date="1495030982000" expanded="true" signature="775:794" ph="{...}" />
+                <marker date="1495030982000" expanded="true" signature="845:926" ph="{...}" />
+                <marker date="1495030982000" expanded="true" signature="970:1218" ph="{...}" />
+                <marker date="1495030982000" expanded="true" signature="1168:1216" ph="{...}" />
+                <marker date="1495030982000" expanded="true" signature="1259:1875" ph="{...}" />
+                <marker date="1495030982000" expanded="true" signature="1412:1509" ph="{...}" />
+                <marker date="1495030982000" expanded="true" signature="1685:1756" ph="{...}" />
+                <marker date="1495030982000" expanded="true" signature="1827:1873" ph="{...}" />
+                <marker date="1495030982000" expanded="true" signature="1913:2194" ph="{...}" />
+                <marker date="1495030982000" expanded="true" signature="2015:2034" ph="{...}" />
+                <marker date="1495030982000" expanded="true" signature="2127:2192" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -337,8 +353,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mnemonic.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="45" column="14" lean-forward="false" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
+        <state relative-caret-position="803">
+          <caret line="145" column="0" lean-forward="false" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
           <folding>
             <element signature="e#15#196#0" expanded="true" />
           </folding>
@@ -347,10 +363,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mnemonic_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1110">
-          <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+        <state relative-caret-position="1080">
+          <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
           <folding>
-            <element signature="e#15#59#0" expanded="true" />
+            <marker date="1495030982000" expanded="true" signature="22:70" ph="..." />
+            <marker date="1495030982000" expanded="true" signature="150:234" ph="{...}" />
+            <marker date="1495030982000" expanded="true" signature="271:589" ph="{...}" />
+            <marker date="1495030982000" expanded="true" signature="351:370" ph="{...}" />
+            <marker date="1495030982000" expanded="true" signature="497:587" ph="{...}" />
+            <marker date="1495030982000" expanded="true" signature="633:928" ph="{...}" />
+            <marker date="1495030982000" expanded="true" signature="775:794" ph="{...}" />
+            <marker date="1495030982000" expanded="true" signature="845:926" ph="{...}" />
+            <marker date="1495030982000" expanded="true" signature="970:1218" ph="{...}" />
+            <marker date="1495030982000" expanded="true" signature="1168:1216" ph="{...}" />
+            <marker date="1495030982000" expanded="true" signature="1259:1875" ph="{...}" />
+            <marker date="1495030982000" expanded="true" signature="1412:1509" ph="{...}" />
+            <marker date="1495030982000" expanded="true" signature="1685:1756" ph="{...}" />
+            <marker date="1495030982000" expanded="true" signature="1827:1873" ph="{...}" />
+            <marker date="1495030982000" expanded="true" signature="1913:2194" ph="{...}" />
+            <marker date="1495030982000" expanded="true" signature="2015:2034" ph="{...}" />
+            <marker date="1495030982000" expanded="true" signature="2127:2192" ph="{...}" />
           </folding>
         </state>
       </provider>

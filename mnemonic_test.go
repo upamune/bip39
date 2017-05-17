@@ -3,6 +3,7 @@ package bip39
 import (
 	"encoding/hex"
 	"fmt"
+	"strings"
 	"testing"
 )
 
@@ -71,5 +72,19 @@ func TestMnemonic_ToSeed(t *testing.T) {
 
 	if mnemonic.IsValid(wl) != false {
 		t.Error("mnemonic.IsValid(wl) == true")
+	}
+}
+
+func TestNewMnemonic2(t *testing.T) {
+	strength := 96
+	mnemonic, err := NewMnemonic(&strength, mockGenerator{}, "english")
+	if err != nil {
+		t.Fatal(err)
+	}
+
+	l := len(strings.Split(mnemonic.Words, " "))
+	expectedLength := 9
+	if l != expectedLength {
+		t.Errorf("l(%d) != expectedLength(%d)", l, expectedLength)
 	}
 }
