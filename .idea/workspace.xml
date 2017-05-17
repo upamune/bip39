@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e5126ad-06b2-4be2-a787-7b71b320d657" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mnemonic_test.go" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/entropy.go" afterPath="$PROJECT_DIR$/entropy.go" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mnemonic.go" afterPath="$PROJECT_DIR$/mnemonic.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mnemonic_test.go" afterPath="$PROJECT_DIR$/mnemonic_test.go" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,40 +29,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mnemonic.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mnemonic.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mnemonic.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+            <state relative-caret-position="1125">
+              <caret line="95" column="30" lean-forward="true" selection-start-line="95" selection-start-column="30" selection-end-line="95" selection-end-column="30" />
               <folding>
-                <marker date="1495025360000" expanded="true" signature="22:148" ph="..." />
-                <marker date="1495025360000" expanded="true" signature="171:188" ph="{...}" />
-                <marker date="1495025360000" expanded="true" signature="239:259" ph="{...}" />
-                <marker date="1495025360000" expanded="true" signature="313:327" ph="{...}" />
-                <marker date="1495025360000" expanded="true" signature="392:1407" ph="{...}" />
-                <marker date="1495025360000" expanded="true" signature="471:519" ph="{...}" />
-                <marker date="1495025360000" expanded="true" signature="569:690" ph="{...}" />
-                <marker date="1495025360000" expanded="true" signature="631:654" ph="{...}" />
-                <marker date="1495025360000" expanded="true" signature="746:767" ph="{...}" />
-                <marker date="1495025360000" expanded="true" signature="790:838" ph="{...}" />
-                <marker date="1495025360000" expanded="true" signature="1049:1183" ph="{...}" />
-                <marker date="1495025360000" expanded="true" signature="1108:1131" ph="{...}" />
-                <marker date="1495025360000" expanded="true" signature="1248:1269" ph="{...}" />
-                <marker date="1495025360000" expanded="true" signature="1299:1357" ph="{...}" />
-                <marker date="1495025360000" expanded="true" signature="1461:1659" ph="{...}" />
-                <marker date="1495025360000" expanded="true" signature="1517:1627" ph="{...}" />
-                <marker date="1495025360000" expanded="true" signature="1601:1624" ph="{...}" />
-                <marker date="1495025360000" expanded="true" signature="1717:1792" ph="{...}" />
-                <marker date="1495025360000" expanded="true" signature="1858:1975" ph="{...}" />
-                <marker date="1495025360000" expanded="true" signature="1888:1930" ph="{...}" />
-                <marker date="1495025360000" expanded="true" signature="1905:1927" ph="{...}" />
-                <marker date="1495025360000" expanded="true" signature="2131:2164" ph="{...}" />
-                <marker date="1495025360000" expanded="true" signature="2264:2552" ph="{...}" />
-                <marker date="1495025360000" expanded="true" signature="2286:2320" ph="{...}" />
-                <marker date="1495025360000" expanded="true" signature="2342:2383" ph="{...}" />
-                <marker date="1495025360000" expanded="true" signature="2485:2514" ph="{...}" />
-                <marker date="1495025360000" expanded="true" signature="2585:2615" ph="{...}" />
-                <marker date="1495025360000" expanded="true" signature="2710:2730" ph="{...}" />
+                <element signature="e#15#148#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mnemonic_test.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mnemonic_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding>
+                <element signature="e#15#43#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -77,23 +63,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mnemonic_test.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mnemonic_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="20" lean-forward="false" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
-              <folding>
-                <element signature="e#15#59#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="entropy.go" pinned="false" current-in-tab="false">
+      <file leaf-file-name="entropy.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/entropy.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1110">
-              <caret line="135" column="0" lean-forward="false" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
               <folding>
                 <element signature="e#15#124#0" expanded="true" />
               </folding>
@@ -141,10 +115,10 @@
         <option value="$PROJECT_DIR$/main.go" />
         <option value="$PROJECT_DIR$/wordlists.go" />
         <option value="$PROJECT_DIR$/wordlists_test.go" />
-        <option value="$PROJECT_DIR$/entropy.go" />
         <option value="$PROJECT_DIR$/entropy_test.go" />
         <option value="$PROJECT_DIR$/mnemonic_test.go" />
         <option value="$PROJECT_DIR$/mnemonic.go" />
+        <option value="$PROJECT_DIR$/entropy.go" />
       </list>
     </option>
   </component>
@@ -335,16 +309,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mnemonic_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="20" lean-forward="false" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
-          <folding>
-            <element signature="e#15#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/Cellar/go/1.7.3/libexec/src/fmt/print.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="387">
@@ -363,49 +327,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/entropy.go">
+    <entry file="file://$PROJECT_DIR$/mnemonic_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1110">
-          <caret line="135" column="0" lean-forward="false" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
+        <state relative-caret-position="180">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
-            <element signature="e#15#124#0" expanded="true" />
+            <element signature="e#15#43#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mnemonic.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+        <state relative-caret-position="1125">
+          <caret line="95" column="30" lean-forward="true" selection-start-line="95" selection-start-column="30" selection-end-line="95" selection-end-column="30" />
           <folding>
-            <marker date="1495025360000" expanded="true" signature="22:148" ph="..." />
-            <marker date="1495025360000" expanded="true" signature="171:188" ph="{...}" />
-            <marker date="1495025360000" expanded="true" signature="239:259" ph="{...}" />
-            <marker date="1495025360000" expanded="true" signature="313:327" ph="{...}" />
-            <marker date="1495025360000" expanded="true" signature="392:1407" ph="{...}" />
-            <marker date="1495025360000" expanded="true" signature="471:519" ph="{...}" />
-            <marker date="1495025360000" expanded="true" signature="569:690" ph="{...}" />
-            <marker date="1495025360000" expanded="true" signature="631:654" ph="{...}" />
-            <marker date="1495025360000" expanded="true" signature="746:767" ph="{...}" />
-            <marker date="1495025360000" expanded="true" signature="790:838" ph="{...}" />
-            <marker date="1495025360000" expanded="true" signature="1049:1183" ph="{...}" />
-            <marker date="1495025360000" expanded="true" signature="1108:1131" ph="{...}" />
-            <marker date="1495025360000" expanded="true" signature="1248:1269" ph="{...}" />
-            <marker date="1495025360000" expanded="true" signature="1299:1357" ph="{...}" />
-            <marker date="1495025360000" expanded="true" signature="1461:1659" ph="{...}" />
-            <marker date="1495025360000" expanded="true" signature="1517:1627" ph="{...}" />
-            <marker date="1495025360000" expanded="true" signature="1601:1624" ph="{...}" />
-            <marker date="1495025360000" expanded="true" signature="1717:1792" ph="{...}" />
-            <marker date="1495025360000" expanded="true" signature="1858:1975" ph="{...}" />
-            <marker date="1495025360000" expanded="true" signature="1888:1930" ph="{...}" />
-            <marker date="1495025360000" expanded="true" signature="1905:1927" ph="{...}" />
-            <marker date="1495025360000" expanded="true" signature="2131:2164" ph="{...}" />
-            <marker date="1495025360000" expanded="true" signature="2264:2552" ph="{...}" />
-            <marker date="1495025360000" expanded="true" signature="2286:2320" ph="{...}" />
-            <marker date="1495025360000" expanded="true" signature="2342:2383" ph="{...}" />
-            <marker date="1495025360000" expanded="true" signature="2485:2514" ph="{...}" />
-            <marker date="1495025360000" expanded="true" signature="2585:2615" ph="{...}" />
-            <marker date="1495025360000" expanded="true" signature="2710:2730" ph="{...}" />
+            <element signature="e#15#148#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/entropy.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding>
+            <element signature="e#15#124#0" expanded="true" />
           </folding>
         </state>
       </provider>

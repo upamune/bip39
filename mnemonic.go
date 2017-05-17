@@ -120,8 +120,9 @@ func NewMnemonic(strength *int, generator RandomGenerator, wordlistLang string) 
 		generator = defaultRandomGenerator
 	}
 
-	hex := string(generator.Generate(*strength / eightBits))
-	e, err := NewEntropy(hex)
+	var size int = *strength / eightBits
+	hex := generator.Generate(size)
+	e, err := NewEntropyFromBytes(hex)
 	if err != nil {
 		return Mnemonic{}, err
 	}

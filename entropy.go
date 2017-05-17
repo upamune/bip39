@@ -21,6 +21,12 @@ func hexToBytes(h string) ([]byte, error) {
 	return hex.DecodeString(h)
 }
 
+func NewEntropyFromBytes(buf []byte) (*Entropy, error) {
+	return &Entropy{
+		Buffer: buf,
+	}, nil
+}
+
 func NewEntropy(entropy string) (*Entropy, error) {
 	buf, err := hexToBytes(entropy)
 	if err != nil {
@@ -106,7 +112,7 @@ func chunkString(str string, length int) []string {
 }
 
 func checksumBits(buf []byte) (string, error) {
-	hash := sha256.New().Sum(buf)
+	hash := byte32ToBytes(sha256.Sum256(buf))
 
 	var ENT = len(buf) * eightBits
 	var CS = ENT / 32
@@ -117,6 +123,14 @@ func checksumBits(buf []byte) (string, error) {
 	}
 
 	return b[:CS], nil
+}
+
+func byte32ToBytes(b [32]byte) []byte {
+	bytes := []byte{}
+	for _, b := range b {
+		bytes = append(bytes, b)
+	}
+	return bytes
 }
 
 func bytesToBinary(b []byte) (string, error) {
