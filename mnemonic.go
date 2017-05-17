@@ -9,7 +9,10 @@ import (
 
 	"fmt"
 
+	"crypto/sha512"
+
 	"github.com/pkg/errors"
+	"golang.org/x/crypto/pbkdf2"
 	"golang.org/x/text/unicode/norm"
 )
 
@@ -27,12 +30,20 @@ func (m Mnemonic) IsValid(wordlist Wordlist) bool {
 	return true
 }
 
+func salt(password string) string {
+	return "mnemonic" + password
+}
+
 func (m Mnemonic) ToSeed(password string) []byte {
-	return []byte{}
+	mnemonicBuffer := []byte(normalizeString(m.Words))
+	saltBuffer := []byte(salt(normalizeString(password)))
+
+	return pbkdf2.Key(mnemonicBuffer, saltBuffer, 2048, 64, sha512.New)
 }
 
 func (m Mnemonic) ToSeedHex(password string) string {
-	return ""
+	b := m.ToSeed(password)
+	return hex.EncodeToString(b)
 }
 
 func (m Mnemonic) ToEntropy(wordlist Wordlist) (string, error) {
