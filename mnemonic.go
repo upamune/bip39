@@ -35,7 +35,10 @@ func NewMnemonic(strength *int, generator RandomGenerator, wordlistLang string) 
 
 	r := generator.Generate(*strength / eightBits)
 	hex := intToHex(r)
-	e := Entropy{Hex: hex}
+	e, err := NewEntropy(hex)
+	if err != nil {
+		return Mnemonic{}, err
+	}
 
 	return e.ToMnemonic(wordlistLang)
 }

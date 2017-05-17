@@ -14,19 +14,25 @@ import (
 )
 
 type Entropy struct {
-	// TODO: 名前変更 → buffer ?
-	Hex string
+	Buffer []byte
 }
 
 func hexToBytes(h string) ([]byte, error) {
 	return hex.DecodeString(h)
 }
 
-func (e Entropy) ToMnemonic(wordlistLang string) (Mnemonic, error) {
-	entropyBuffer, err := hexToBytes(e.Hex)
+func NewEntropy(entropy string) (*Entropy, error) {
+	buf, err := hexToBytes(entropy)
 	if err != nil {
-		return Mnemonic{}, err
+		return nil, err
 	}
+	return &Entropy{
+		Buffer: buf,
+	}, nil
+}
+
+func (e Entropy) ToMnemonic(wordlistLang string) (Mnemonic, error) {
+	entropyBuffer := e.Buffer
 	l := len(entropyBuffer)
 	if l == 0 || l > 1024 || l%4 != 0 {
 		return Mnemonic{}, errors.New("Invalid entropy")

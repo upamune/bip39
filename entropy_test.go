@@ -6,7 +6,10 @@ import (
 )
 
 func TestEntropy_ToMnemonic(t *testing.T) {
-	entropy := Entropy{Hex: "133755ff"}
+	entropy, err := NewEntropy("133755ff")
+	if err != nil {
+		t.Fatal(err)
+	}
 	mnemonic, err := entropy.ToMnemonic("english")
 	if err != nil {
 		t.Error(err)
